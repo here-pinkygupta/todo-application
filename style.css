@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}.container{
+    border-radius: 15px;
+    height: auto;
+    width: 25vw;
+    box-shadow: 4px 5px 6px;
+    background-color: rgb(156, 222, 252);
+}.head{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.7rem;
+    font-weight: 900;
+    border-bottom: 0.5 solid white;
+    margin-bottom: 20px;
+}.addtask{
+    background-color: rgb(156, 222, 252);
+    display: flex;
+    justify-content: space-evenly;
+}input{
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 200;
+
+}button:hover{
+    border:  1px solid black;
+    box-shadow: 2px 2px 2px;
+}button{
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(244,242,153);
+}ul{
+    background-color: rgb(156, 222, 252);
+    list-style-type: none;
+    color: black;
+    padding: 15px;
+}li{
+    background-color: rgb(156, 222, 252);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-size: 1.2rem;
+    margin-bottom: 7px;
+    border-radius: 5px;
+    border: 1px solid #f4f4f9 ;
+}
